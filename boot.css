@@ -1,0 +1,40 @@
+
+#head  {
+    width: 85%;
+    margin: auto;
+}
+#container {
+    width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  /* gap: 40px; */
+  
+}
+#boot_items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 70%;
+    gap: 1%;
+    column-gap: 10px;
+
+    text-align: center;
+}
+h4,p,h5,h2{
+    margin: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 13px;
+}
+#add_to_cart {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 5%;
+}
+#sidebar {
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 100vh ;
+}
